@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GETU Score</title>
+
+</head>
+<body>
+    <div class="panel">
+        <h1>Bienvenue sur GETU Score!</h1>
+        <p> Veuillez sélectionner la catégorie: </p>
+        <div>
+            <button id="catButtonF16" onclick="catF16()">Filles C1-C5</button>
+            <br>
+            <br>
+        </div>
+        <div>
+            <button id="catButtonF7" onclick="catF7()">Filles C6-C7</button>
+            <br>
+            <br>
+        </div>
+        <div>
+            <button id="catButtonG16" onclick="catG16()">Garçons C1-C5</button>
+            <br>
+            <br>
+        </div>
+        <div>
+            <button id="catButtonG7" onclick="catG7()">Garçons C6-C7</button>
+        </div>
+    </div>
+    <div class="panel" id="inputPanel">
+        <h2>Calcul des scores</h2>
+        <div id="btnDiv">
+            <button  id="addButton" onclick="addLine()">+</button>
+            <button id="runButton" onclick="runCalculation()">Lancer le calcul</button>
+        </div>
+    </div>
+    <div class="panel">
+        <h2>Classement</h2>
+        <div id="rankingBtnDiv">
+            <button id="rankingButton" onclick="runRanking()">Calculer le classement</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+<footer>
+
+</footer>
+</html>

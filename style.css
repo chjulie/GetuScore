@@ -1,0 +1,131 @@
+* {
+    font-family: tahoma;
+    text-align: justify;
+}
+
+body { 
+    background: white; 
+    font-size: 12px; 
+    margin: 20px; 
+    padding: 0 
+}
+
+h1 {
+
+
+}
+
+p.titreEngins {
+    text-align: left;
+    word-spacing: 65px;
+}
+
+button {
+    height: 30px;
+    width: 120px;
+    border: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#catButtonF16 {
+    background-color: rgb(255,105,180); 
+    border-color: rgb(255, 20, 57);
+} 
+
+#catButtonF16:hover {
+    background-color: rgba(255,105,180,0.2);
+}
+
+#catButtonF7 {
+    background-color: rgb(255, 20, 147);
+    border-color: crimson;
+}
+
+#catButtonF7:hover {
+    background-color: rgba(255, 20, 147, 0.2);
+}
+
+#catButtonG16 {
+    background-color: rgb(100, 149, 237);
+    border-color: rgb(65, 105, 225);
+}
+
+#catButtonG16:hover {
+    background-color: rgba(100, 149, 237, 0.2);
+}
+
+#catButtonG7 {
+    background-color: rgb(65, 105, 225);
+    border-color: rgb(0,0,128);
+}
+
+#catButtonG7:hover {
+    background-color: rgb(65, 105, 225, 0.2);
+}
+
+#total {
+    font-size: 16px;
+    background-color: lightgrey;
+    border-color: rgb(0,0,128);
+    width: 60px;
+}
+
+button:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+div.nomEngins {
+    font-size: 14px;
+    text-align: left;
+    word-spacing: 60px;
+
+}
+
+div.gymnaste {
+    word-spacing: 10px;
+}
+
+#removeButton {
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+    float: right;
+}
+
+#addButton {
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+}
+
+#rankingButton {
+    font-size: 11px;
+}
+
+div.button { 
+    background: fuchsia;
+    border-radius: 4px; 
+    color: black; 
+    cursor: pointer; 
+    display: inline-block; 
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+div.panel { 
+    background: white; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    margin: 20px auto; 
+    max-width: 1000px; 
+    padding: 20px 
+}
+
+input { 
+    border-radius: 2px;
+    width: 80px;
+}
+input[type=button] { width: 3%}
